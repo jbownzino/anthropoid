@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MapGL from 'react-map-gl';
 //import DeckGLOverlay from './deckgl-overlay.js';
-import token from '../constants.js';
+import token from './constants.js';
 import logo from './logo.svg';
 import './App.css';
 
