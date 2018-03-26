@@ -1,18 +1,19 @@
 {
-  "name": "test",
-  "version": "0.1.0",
-  "private": true,
+  "scripts": {
+    "start-local": "webpack-dev-server --env.local --progress --hot --open",
+    "start": "webpack-dev-server --progress --hot --open"
+  },
   "dependencies": {
-    "deck.gl": "^5.1.4",
+    "d3-request": "^1.0.5",
+    "deck.gl": "^5.0.0",
+    "luma.gl": "^5.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
-    "react-map-gl": "^3.2.5"
+    "react-map-gl": "^3.2.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   }
 }
