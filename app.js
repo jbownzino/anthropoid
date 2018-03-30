@@ -61,7 +61,7 @@ class Root extends Component {
     return (
       <MapGL
         {...viewport}
-        mapStyle="mapbox://styles/mapbox/dark-v9"
+        mapStyle="mapbox://styles/jbownzino/cjfdy2jmpa5232rpscctr8jp3"
         onViewportChange={this._onViewportChange.bind(this)}
         mapboxApiAccessToken={MAPBOX_TOKEN}
       >
