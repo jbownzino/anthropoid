@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 import MapGL from 'react-map-gl';
 import DeckGLOverlay from './deckgl-overlay.js';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import {json as requestJson} from 'd3-request';
 

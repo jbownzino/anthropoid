@@ -5,39 +5,57 @@
 const resolve = require('path').resolve;
 const webpack = require('webpack');
 const path = require("path");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 const CONFIG = {
-  entry: {
-    app: resolve('./src/app.js')
-  },
-  output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "js/[name].js"
-  },
+    entry: {
+        app: resolve('./src/app.js')
+    },
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "./bundle.js"
+    },
 
-  devtool: 'source-map',
+    devtool: 'source-map',
 
-  module: {
-    rules: [
-      {
-        // Compile ES2015 using buble
-        test: /\.js$/,
-        loader: 'babel-loader',
-        include: [resolve('.')],
-        exclude: [/node_modules/],
-      }
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                }
+            },
+            {
+                test: /\.html$/,
+                use: [
+                    {
+                     loader: "html-loader"
+                    }
+                ]
+            },
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
+            }
+        ]
+    },
+    resolve: {
+        alias: {
+            // From mapbox-gl-js README. Required for non-browserify bundlers (e.g. webpack):
+            'mapbox-gl$': resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js')
+        }
+    },
+    plugins: [
+        new HtmlWebPackPlugin({
+            template: "./src/index.html",
+            filename: "./index.html"
+        })
     ]
-  },
 
-  resolve: {
-    alias: {
-      // From mapbox-gl-js README. Required for non-browserify bundlers (e.g. webpack):
-      'mapbox-gl$': resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js')
-    }
-  },
-
-  // Optional: Enables reading mapbox token from environment variable
-  plugins: [new webpack.EnvironmentPlugin(['MapboxAccessToken'])]
+    // Optional: Enables reading mapbox token from environment variable
+    //plugins: [new webpack.EnvironmentPlugin(['MapboxAccessToken'])]
 };
 
 // This line enables bundling against src in this repo rather than installed deck.gl module
