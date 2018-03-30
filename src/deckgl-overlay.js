@@ -3,7 +3,7 @@ import {setParameters} from 'luma.gl';
 import DeckGL, {ArcLayer, LineLayer, ScatterplotLayer} from 'deck.gl';
 
 function getSourceColor(d) {
-  return d.category === 'cloud' ? [45, 143, 226] : [47, 115, 54];
+  return d.category === 'cloud' ? [255, 246, 188] : [45,143,206];
 }
 
 function getSize(type) {
@@ -18,9 +18,9 @@ function getSize(type) {
 export default class DeckGLOverlay extends Component {
   static get defaultViewport() {
     return {
-      latitude: 38.456085,
-      longitude: -92.288368,
-      zoom: 3,
+      latitude: 44.412867,
+      longitude: 10.742712,
+      zoom: 1.5,
       maxZoom: 16,
       pitch: 30,
       bearing: 0
@@ -60,7 +60,7 @@ export default class DeckGLOverlay extends Component {
         getSourcePosition: d => d.start,
         getTargetPosition: d => d.end,
         getSourceColor,
-        getTargetColor: d => [255, 255, 255, 0.5],
+        getTargetColor: d => [45,143,206,.97],
         pickable: Boolean(this.props.onHover),
         onHover: this.props.onHover
       })

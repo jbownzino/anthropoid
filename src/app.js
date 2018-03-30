@@ -67,7 +67,7 @@ class Root extends Component {
       >
         <DeckGLOverlay
           viewport={viewport}
-          strokeWidth={3}
+          strokeWidth={1}
           flightPaths={flightPaths}
           airports={airports}
         />

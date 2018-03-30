@@ -4,10 +4,15 @@
 // avoid destructuring for older Node version support
 const resolve = require('path').resolve;
 const webpack = require('webpack');
+const path = require("path");
 
 const CONFIG = {
   entry: {
-    app: resolve('./app.js')
+    app: resolve('./src/app.js')
+  },
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: "js/[name].js"
   },
 
   devtool: 'source-map',
@@ -17,12 +22,9 @@ const CONFIG = {
       {
         // Compile ES2015 using buble
         test: /\.js$/,
-        loader: 'buble-loader',
+        loader: 'babel-loader',
         include: [resolve('.')],
         exclude: [/node_modules/],
-        options: {
-          objectAssign: 'Object.assign'
-        }
       }
     ]
   },
