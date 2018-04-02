@@ -18,9 +18,9 @@ function getSize(type) {
 export default class DeckGLOverlay extends Component {
   static get defaultViewport() {
     return {
-      latitude: 44.412867,
-      longitude: 10.742712,
-      zoom: 1.5,
+      latitude: 41.015137,
+      longitude: 28.979530,
+      zoom: 1.38,
       maxZoom: 16,
       pitch: 30,
       bearing: 0
@@ -35,16 +35,16 @@ export default class DeckGLOverlay extends Component {
   }
 
   render() {
-    const {viewport, flightPaths, airports, strokeWidth} = this.props;
+    const {viewport, nodes, hubs, strokeWidth} = this.props;
 
-    if (!flightPaths || !airports) {
+    if (!nodes || !hubs) {
       return null;
     }
 
     const layers = [
       new ScatterplotLayer({
-        id: 'airports',
-        data: airports,
+        id: 'hubs',
+        data: hubs,
         radiusScale: 20,
         getPosition: d => d.coordinates,
         getColor: d => [255, 140, 0],
@@ -53,8 +53,8 @@ export default class DeckGLOverlay extends Component {
         onHover: this.props.onHover
       }),
       new ArcLayer({
-        id: 'flight-paths',
-        data: flightPaths,
+        id: 'nodes',
+        data: nodes,
         strokeWidth,
         fp64: false,
         getSourcePosition: d => d.start,
