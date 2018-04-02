@@ -1,42 +1,7 @@
 [
-  {
-    "type": "major",
-    "name": "Virginia",
-    "coordinates": [
-      -77.711441,
-      38.592724
-    ]
-  },
-  {
-    "type": "major",
-    "name": "London",
-    "coordinates": [
-      -0.454295,
-      51.470020
-    ]
-  },
-  {
-    "type": "major",
-    "name": "Kyiv",
-    "coordinates": [
-      30.516382,
-      50.431782
-    ]
-  },
-  {
-    "type": "major",
-    "name": "Tokyo",
-    "coordinates": [
-      139.839478,
-      35.652832
-    ]
-  },
-  {
-    "type": "none",
-    "name": "Origin",
-    "coordinates": [
-      29.032889,
-      32.613222
-    ]
-  }
+  {"type":"major","name":"Virginia","coordinates":[-77.711441,38.592724]},
+  {"type":"major","name":"London","coordinates":[-0.454295,51.470020]},
+  {"type":"major","name":"Kyiv","coordinates":[30.516382,50.431782]},
+  {"type":"major","name":"Tokyo","coordinates":[139.839478,35.652832]},
+  {"type":"none","name":"Origin","coordinates":[29.032889,32.613222]}
 ]

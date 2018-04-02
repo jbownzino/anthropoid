@@ -11,7 +11,7 @@ export default class TransitionControl extends Component {
             <div key={`btn-${index}`} className="input" >
                 <input type="radio" name="city"
                        id={`city-${index}`}
-                       defaultChecked={hub.name === 'Virginia'}
+                       defaultChecked={hub.name === 'Origin'}
                        onClick={() => this.props.onViewportChange(hub)} />
                 <label htmlFor={`city-${index}`}>{hub.name}</label>
             </div>
