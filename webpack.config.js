@@ -28,6 +28,15 @@ const CONFIG = {
                 }
             },
             {
+                test: /\.(jpg|png)$/,
+                use: {
+                    loader: "file-loader",
+                    options: {
+                        name: "./assets/[hash].[ext]",
+                    },
+                },
+            },
+            {
                 test: /\.html$/,
                 use: [
                     {

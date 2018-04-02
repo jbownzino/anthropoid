@@ -3,13 +3,12 @@ import {setParameters} from 'luma.gl';
 import DeckGL, {ArcLayer, LineLayer, ScatterplotLayer} from 'deck.gl';
 
 function getSourceColor(d) {
-  return d.category === 'cloud' ? [255, 246, 188] : [45,143,206];
+  return d.category === 'cloud' ? [255, 246, 188] : [45, 143, 206];
 }
 
 //testing out sizing dynamically on our scatterPlot layer
 function getSize(type) {
-  return type.search('major') >= 0 ? 600 : 60;
-  return type.search('small') >= 0 ? 100 : 60;
+  return type.search('major') >= 0 ? 600 : 0;
 }
 
 export default class DeckGLOverlay extends Component {

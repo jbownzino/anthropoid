@@ -48,23 +48,24 @@ class Root extends Component {
     }
 
     _resize = () => this._onViewportChange({
-        //width: this.props.width || window.innerWidth,
-        //height: this.props.height || window.innerHeight
-        width: 800,
-        height: 600
+        width: this.props.width || window.innerWidth,
+        height: this.props.height || window.innerHeight
+        //width: 800,
+        //height: 600
     });
 
     _onViewportChange = viewport => this.setState({
         viewport: {...this.state.viewport, ...viewport}
     });
 
-    _goToViewport = (longitude, latitude) => {
+    //We can even out the transitions by changing duration based on distance between origin/target
+    _goToViewport = (hub) => {
         this._onViewportChange({
-            longitude,
-            latitude,
-            zoom: 4,
+            longitude: hub.coordinates[0],
+            latitude: hub.coordinates[1],
+            zoom: hub.name === 'Origin' ? 1.38 : 4,
             transitionInterpolator: new FlyToInterpolator(),
-            transitionDuration: 3000
+            transitionDuration: hub.name === 'Origin' ? 4500 : 3500
         });
     };
 
