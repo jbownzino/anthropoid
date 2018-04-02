@@ -6,20 +6,17 @@ function getSourceColor(d) {
   return d.category === 'cloud' ? [255, 246, 188] : [45,143,206];
 }
 
+//testing out sizing dynamically on our scatterPlot layer
 function getSize(type) {
-  if (type.search('major') >= 0) {
-    return 100;
-  }
-  if (type.search('small') >= 0) {
-    return 30;
-  }
-  return 60;
+  return type.search('major') >= 0 ? 600 : 60;
+  return type.search('small') >= 0 ? 100 : 60;
 }
+
 export default class DeckGLOverlay extends Component {
   static get defaultViewport() {
     return {
-      latitude: 41.015137,
-      longitude: 28.979530,
+      latitude: 32.613222,
+      longitude: 29.032889,
       zoom: 1.38,
       maxZoom: 16,
       pitch: 30,
@@ -49,8 +46,8 @@ export default class DeckGLOverlay extends Component {
         getPosition: d => d.coordinates,
         getColor: d => [255, 140, 0],
         getRadius: d => getSize(d.type),
-        pickable: Boolean(this.props.onHover),
-        onHover: this.props.onHover
+        //pickable: Boolean(this.props.onHover),
+        //onHover: this.props.onHover
       }),
       new ArcLayer({
         id: 'nodes',
@@ -60,9 +57,9 @@ export default class DeckGLOverlay extends Component {
         getSourcePosition: d => d.start,
         getTargetPosition: d => d.end,
         getSourceColor,
-        getTargetColor: d => [45,143,206,.97],
-        pickable: Boolean(this.props.onHover),
-        onHover: this.props.onHover
+        getTargetColor: d => [45, 143, 206, .97],
+        //pickable: Boolean(this.props.onHover),
+        //onHover: this.props.onHover
       })
     ];
 

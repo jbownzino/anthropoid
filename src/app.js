@@ -2,9 +2,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom'
 import MapGL, {FlyToInterpolator} from 'react-map-gl';
-import DeckGLOverlay from './deckgl-overlay.js';
+import DeckGLOverlay from './arc-overlay.js';
+import TransitionControl from './transition-control.js';
 import {json as requestJson} from 'd3-request';
-
 require('./index.css');
 
 // Set your mapbox token here
@@ -48,19 +48,21 @@ class Root extends Component {
     }
 
     _resize = () => this._onViewportChange({
-        width: this.props.width || window.innerWidth,
-        height: this.props.height || window.innerHeight
+        //width: this.props.width || window.innerWidth,
+        //height: this.props.height || window.innerHeight
+        width: 800,
+        height: 600
     });
 
     _onViewportChange = viewport => this.setState({
         viewport: {...this.state.viewport, ...viewport}
     });
 
-    _goToViewport = ({longitude, latitude}) => {
+    _goToViewport = (longitude, latitude) => {
         this._onViewportChange({
             longitude,
             latitude,
-            zoom: 11,
+            zoom: 4,
             transitionInterpolator: new FlyToInterpolator(),
             transitionDuration: 3000
         });
@@ -74,7 +76,10 @@ class Root extends Component {
                 {...viewport}
                 mapStyle="mapbox://styles/jbownzino/cjfdy2jmpa5232rpscctr8jp3"
                 onViewportChange={this._onViewportChange}
+                attributionControl={false}
+                trackResize={true}
                 mapboxApiAccessToken={MAPBOX_TOKEN}
+
             >
                 <DeckGLOverlay
                     viewport={viewport}
@@ -82,11 +87,12 @@ class Root extends Component {
                     nodes={nodes}
                     hubs={hubs}
                 />
+                <TransitionControl containerComponent={this.props.containerComponent}
+                                   onViewportChange={this._goToViewport}
+                />
             </MapGL>
         );
     }
 }
 
 ReactDOM.render(<Root/>, document.getElementById('map'));
-
-//render(<Root />, document.body.appendChild(document.createElement('div')));
