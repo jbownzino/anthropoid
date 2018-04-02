@@ -7,7 +7,6 @@ const defaultContainer =  ({children}) => <div className="controls">{children}</
 export default class TransitionControl extends Component {
 
     _renderButton = (hub, index) => {
-        console.log('coordinates: ' + hub.coordinates[0] + ', ' + hub.coordinates[1]);
         return (
             <div key={`btn-${index}`} className="input" >
                 <input type="radio" name="city"

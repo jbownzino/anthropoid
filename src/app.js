@@ -1,8 +1,7 @@
-/* global window,document */
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom'
 import MapGL, {FlyToInterpolator} from 'react-map-gl';
-import DeckGLOverlay from './arc-overlay.js';
+import DeckGLOverlay from './overlays.js';
 import TransitionControl from './transition-control.js';
 import {json as requestJson} from 'd3-request';
 require('./index.css');
@@ -11,7 +10,7 @@ require('./index.css');
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiamJvd256aW5vIiwiYSI6ImNqZWp6ZjBhMTNydnQydmxudzRqN3R2bW4ifQ.CquyG6X0xN3PfoeEDbi64A'; // eslint-disable-line
 
 // Source data CSV
-const DATA_URL = {DATAROBOT: './src/datarobot.json', HUBS: './src/hubs.json'};
+const DATA_URL = {DATAROBOT: './src/datarobot.json', HUBS: './src/hubs.json', TEST: '/src/test_arc.json'};
 
 class Root extends Component {
     constructor(props) {
@@ -22,10 +21,13 @@ class Root extends Component {
                 width: 500,
                 height: 500
             },
+            strokeWidth: 0,
+            time: 0,
             nodes: [],
             hubs: []
         };
 
+    //@@TODO We need to be using flux to handle data
         requestJson(DATA_URL.DATAROBOT, (error, response) => {
             if (!error) {
                 this.setState({nodes: response});
@@ -41,6 +43,11 @@ class Root extends Component {
     componentDidMount() {
         window.addEventListener('resize', this._resize);
         this._resize();
+        this._animate();
+    }
+
+    _calculate = () => {
+        console.log([38.592724 + (41.597782 - 38.592724) * 0.5, -77.711441 + (-72.755371 - -77.711441) * 0.5]);
     }
 
     componentWillUnmount() {
@@ -53,6 +60,20 @@ class Root extends Component {
         //width: 800,
         //height: 600
     });
+
+    _animate = () => {
+        const timestamp = Date.now();
+        const loopLength = 1800;
+        const loopTime = 60000;
+        const t = this.state.strokeWidth;
+        const stroke = 1.25 > t ? t + 0.075 : t;
+
+        this.setState({
+            strokeWidth: stroke,
+            time: (timestamp % loopTime) / loopTime * loopLength
+        });
+        this._animationFrame = window.requestAnimationFrame(this._animate);
+    }
 
     _onViewportChange = viewport => this.setState({
         viewport: {...this.state.viewport, ...viewport}
@@ -70,7 +91,7 @@ class Root extends Component {
     };
 
     render() {
-        const {viewport, nodes, hubs} = this.state;
+        const {viewport, nodes, hubs, time} = this.state;
 
         return (
             <MapGL
@@ -84,9 +105,10 @@ class Root extends Component {
             >
                 <DeckGLOverlay
                     viewport={viewport}
-                    strokeWidth={1}
+                    strokeWidth={this.state.strokeWidth}
                     nodes={nodes}
                     hubs={hubs}
+                    time={time}
                 />
                 <TransitionControl containerComponent={this.props.containerComponent}
                                    onViewportChange={this._goToViewport}

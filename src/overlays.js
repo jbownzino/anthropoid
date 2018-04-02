@@ -3,12 +3,22 @@ import {setParameters} from 'luma.gl';
 import DeckGL, {ArcLayer, LineLayer, ScatterplotLayer} from 'deck.gl';
 
 function getSourceColor(d) {
-  return d.category === 'cloud' ? [255, 246, 188] : [45, 143, 206];
+  if (d.category === 'mid') {
+      return [255, 0, 0];
+  } else {
+      return [255, 246, 188];
+  }
+  //return d.category === 'cloud' ? [255, 246, 188] : [45, 143, 206];
 }
 
 //testing out sizing dynamically on our scatterPlot layer
-function getSize(type) {
-  return type.search('major') >= 0 ? 600 : 0;
+function getSize(d) {
+  return 800;
+}
+
+//Testing
+function getPosition(d) {
+    return d.end;
 }
 
 export default class DeckGLOverlay extends Component {
@@ -31,7 +41,7 @@ export default class DeckGLOverlay extends Component {
   }
 
   render() {
-    const {viewport, nodes, hubs, strokeWidth} = this.props;
+    const {viewport, nodes, hubs, strokeWidth, time} = this.props;
 
     if (!nodes || !hubs) {
       return null;
@@ -40,11 +50,11 @@ export default class DeckGLOverlay extends Component {
     const layers = [
       new ScatterplotLayer({
         id: 'hubs',
-        data: hubs,
+        data: nodes,
         radiusScale: 20,
-        getPosition: d => d.coordinates,
-        getColor: d => [255, 140, 0],
-        getRadius: d => getSize(d.type),
+        getPosition,
+        getColor: d => [255, 109, 0],
+        getRadius: d => getSize(d)
         //pickable: Boolean(this.props.onHover),
         //onHover: this.props.onHover
       }),
@@ -56,7 +66,8 @@ export default class DeckGLOverlay extends Component {
         getSourcePosition: d => d.start,
         getTargetPosition: d => d.end,
         getSourceColor,
-        getTargetColor: d => [45, 143, 206, .97],
+        getTargetColor: d => [45, 143, 206],
+        //currentTime: time
         //pickable: Boolean(this.props.onHover),
         //onHover: this.props.onHover
       })
