@@ -5,6 +5,7 @@
     "build": "webpack"
   },
   "dependencies": {
+    "aws-sdk": "^2.220.1",
     "d3-request": "^1.0.5",
     "d3-scale": "^1.0.5",
     "deck.gl": "^5.0.0",
@@ -29,7 +30,7 @@
     "image-webpack-loader": "^4.2.0",
     "style-loader": "^0.20.3",
     "url-loader": "^1.0.1",
-    "webpack": "^2.2.0",
+    "webpack": "^3.0.0",
     "webpack-dev-server": "^2.2.0"
   }
 }

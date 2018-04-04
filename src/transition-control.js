@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import hubs from './hubs.json';
-import logo from './assets/datarobot_text.png';
+import hubs from '../assets/hubs.json';
+import logo from '../assets/datarobot_text.png';
 
 const defaultContainer =  ({children}) => <div className="controls">{children}</div>;
 

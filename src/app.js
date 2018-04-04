@@ -10,7 +10,7 @@ require('./index.css');
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiamJvd256aW5vIiwiYSI6ImNqZWp6ZjBhMTNydnQydmxudzRqN3R2bW4ifQ.CquyG6X0xN3PfoeEDbi64A'; // eslint-disable-line
 
 // Source data CSV
-const DATA_URL = {DATAROBOT: './src/datarobot.json', HUBS: './src/hubs.json', TEST: '/src/test_arc.json'};
+const DATA_URL = {DATAROBOT: './assets/datarobot.json', HUBS: './assets/hubs.json', TEST: '/assets/test_arc.json'};
 
 class Root extends Component {
     constructor(props) {
