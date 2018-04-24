@@ -3,8 +3,7 @@ import {setParameters} from 'luma.gl';
 import DeckGL, {ArcLayer, LineLayer, ScatterplotLayer} from 'deck.gl';
 
 function getSourceColor(d) {
-    return d.category === 'mid' ? [255, 0, 0] : [255, 246, 188];
-    //return d.category === 'cloud' ? [255, 246, 188] : [45, 143, 206];
+    return d.category === 'cloud' ? [255, 246, 188] : [45, 143, 206];
 }
 
 //testing out sizing dynamically on our scatterPlot layer
@@ -17,6 +16,15 @@ function getPosition(d) {
     return d.end;
 }
 
+
+
+function start() {
+    console.log('starting');
+}
+
+function end() {
+    console.log('ending');
+}
 export default class DeckGLOverlay extends Component {
     static get defaultViewport() {
         return {
@@ -63,10 +71,18 @@ export default class DeckGLOverlay extends Component {
                 getTargetPosition: d => d.end,
                 getSourceColor,
                 getTargetColor: d => [45, 143, 206, 0.9999999],
+                transitions: {
+                    onStart: this.start,
+                    onEnd: this.end,
+                    getPositions: 600,
+                    getColors: {
+                        duration: 300,
+                        //easing: d3.easeCubicInOut
+                    }
                 //currentTime: time
                 //pickable: Boolean(this.props.onHover),
                 //onHover: this.props.onHover
-            })
+            }})
         ];
 
         return <DeckGL {...viewport} layers={layers} onWebGLInitialized={this._initialize}/>;
