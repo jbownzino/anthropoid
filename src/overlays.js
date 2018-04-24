@@ -16,8 +16,6 @@ function getPosition(d) {
     return d.end;
 }
 
-
-
 function start() {
     console.log('starting');
 }
