@@ -69,8 +69,8 @@ export default class DeckGLOverlay extends Component {
                 fp64: false,
                 getSourcePosition: d => d.start,
                 getTargetPosition: d => d.end,
-                getSourceColor,
-                getTargetColor: d => [45, 143, 206, 0.9999999],
+                getSourceColor: d => [255, 128, 0],
+                getTargetColor: d => [0, 128, 255],
                 transitions: {
                     onStart: this.start,
                     onEnd: this.end,
