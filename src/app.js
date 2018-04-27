@@ -10,7 +10,7 @@ require('./index.css');
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiamJvd256aW5vIiwiYSI6ImNqZWp6ZjBhMTNydnQydmxudzRqN3R2bW4ifQ.CquyG6X0xN3PfoeEDbi64A'; // eslint-disable-line
 
 // Source data CSV
-const DATA_URL = {DATAROBOT: './assets/datarobot.json', HUBS: './assets/hubs.json', TEST: '/assets/test_arc.json'};
+const DATA_URL = {DATAROBOT: './assets/datarobot.json', HUBS: './assets/hubs.json', TEST: './assets/test_arc.json'};
 
 class Root extends Component {
     constructor(props) {
@@ -18,17 +18,17 @@ class Root extends Component {
         this.state = {
             viewport: {
                 ...DeckGLOverlay.defaultViewport,
-                width: 500,
-                height: 500
+                width: 800,
+                height: 600
             },
-            strokeWidth: 0,
+            strokeWidth: 3,
             time: 0,
             nodes: [],
             hubs: []
         };
 
     //@@TODO We need to be using flux to handle data
-        requestJson(DATA_URL.DATAROBOT, (error, response) => {
+        requestJson(DATA_URL.TEST, (error, response) => {
             if (!error) {
                 this.setState({nodes: response});
             }
@@ -55,10 +55,10 @@ class Root extends Component {
     }
 
     _resize = () => this._onViewportChange({
-        width: this.props.width || window.innerWidth,
-        height: this.props.height || window.innerHeight
-        //width: 800,
-        //height: 600
+        //width: this.props.width || window.innerWidth,
+        //height: this.props.height || window.innerHeight
+        width: 800,
+        height: 600
     });
 
     _animate = () => {

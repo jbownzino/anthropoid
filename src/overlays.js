@@ -16,8 +16,6 @@ function getPosition(d) {
     return d.end;
 }
 
-
-
 function start() {
     console.log('starting');
 }
@@ -28,9 +26,9 @@ function end() {
 export default class DeckGLOverlay extends Component {
     static get defaultViewport() {
         return {
-            latitude: 32.613222,
-            longitude: 29.032889,
-            zoom: 1.38,
+            latitude: 38.592724,
+            longitude: -77.711441,
+            zoom: 3,
             maxZoom: 16,
             pitch: 30,
             bearing: 0
@@ -65,24 +63,15 @@ export default class DeckGLOverlay extends Component {
             new ArcLayer({
                 id: 'nodes',
                 data: nodes,
-                strokeWidth,
+                stroke,
                 fp64: false,
                 getSourcePosition: d => d.start,
                 getTargetPosition: d => d.end,
                 getSourceColor,
                 getTargetColor: d => [45, 143, 206, 0.9999999],
-                transitions: {
-                    onStart: this.start,
-                    onEnd: this.end,
-                    getPositions: 600,
-                    getColors: {
-                        duration: 300,
-                        //easing: d3.easeCubicInOut
-                    }
-                //currentTime: time
                 //pickable: Boolean(this.props.onHover),
                 //onHover: this.props.onHover
-            }})
+            })
         ];
 
         return <DeckGL {...viewport} layers={layers} onWebGLInitialized={this._initialize}/>;
