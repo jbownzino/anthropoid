@@ -63,7 +63,7 @@ export default class DeckGLOverlay extends Component {
             new ArcLayer({
                 id: 'nodes',
                 data: nodes,
-                stroke,
+                strokeWidth,
                 fp64: false,
                 getSourcePosition: d => d.start,
                 getTargetPosition: d => d.end,
