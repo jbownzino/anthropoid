@@ -1,4 +1,4 @@
-var flights = [{
+[{
     "environment": "UNITED_STATES",
     "latitude": 51.578045,
     "longitude": -0.710205,
