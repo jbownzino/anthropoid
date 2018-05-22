@@ -10,7 +10,7 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiamJvd256aW5vIiwiYSI6ImNqZWp6ZjBhMTNydnQydmxudzR
 // Source data CSV
 const DATA_URL = {
   TRIPS:
-    'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/trips/trips.json' // eslint-disable-line
+    './assets/trips.json' // eslint-disable-line
 };
 
 class Root extends Component {
@@ -57,8 +57,10 @@ class Root extends Component {
 
   _resize() {
     this._onViewportChange({
-      width: window.innerWidth,
-      height: window.innerHeight
+      //width: window.innerWidth,
+      //height: window.innerHeight
+        width: 800,
+        height: 600
     });
   }
 
