@@ -10,7 +10,7 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiamJvd256aW5vIiwiYSI6ImNqZWp6ZjBhMTNydnQydmxudzR
 // Source data CSV
 const DATA_URL = {
   TRIPS:
-    './assets/datarobot.json' // eslint-disable-line
+    './assets/trips.json' // eslint-disable-line
 };
 
 class Root extends Component {
