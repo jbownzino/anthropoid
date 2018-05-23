@@ -1,151 +1,212 @@
-import {Layer} from 'deck.gl';
+// Copyright (c) 2015 - 2017 Uber Technologies, Inc.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+import {COORDINATE_SYSTEM, Layer, experimental} from '../node_modules/deck.gl';
+const {fp64LowPart, enable64bitSupport} = experimental;
+import {GL, Model, Geometry} from 'luma.gl';
 
-import {Model, Geometry} from 'luma.gl';
+import vs from './arc-layer-vertex.glsl';
+import vs64 from './arc-layer-vertex-64.glsl';
+import fs from './arc-layer-fragment.glsl';
 
-import tripsVertex from './trips-layer-vertex.glsl';
-import tripsFragment from './trips-layer-fragment.glsl';
+const DEFAULT_COLOR = [0, 0, 0, 255];
 
 const defaultProps = {
-  trailLength: 120,
-  currentTime: 0,
-  getPath: d => d.path,
-  getColor: d => d.color
+    strokeWidth: 1,
+    fp64: false,
+
+    getSourcePosition: x => x.sourcePosition,
+    getTargetPosition: x => x.targetPosition,
+    getSourceColor: x => x.color || DEFAULT_COLOR,
+    getTargetColor: x => x.color || DEFAULT_COLOR
 };
 
-export default class TripsLayer extends Layer {
-  initializeState() {
-    const {gl} = this.context;
-    const attributeManager = this.getAttributeManager();
-
-    const model = this.getModel(gl);
-
-    attributeManager.add({
-      indices: {size: 1, update: this.calculateIndices, isIndexed: true},
-      positions: {size: 3, update: this.calculatePositions},
-      colors: {size: 3, update: this.calculateColors}
-    });
-
-    gl.getExtension('OES_element_index_uint');
-    this.setState({model});
-  }
-
-  updateState({props, changeFlags: {dataChanged}}) {
-    if (dataChanged) {
-      this.countVertices(props.data);
-      this.state.attributeManager.invalidateAll();
-    }
-  }
-
-  getModel(gl) {
-    return new Model(gl, {
-      id: this.props.id,
-      vs: tripsVertex,
-      fs: tripsFragment,
-      geometry: new Geometry({
-        id: this.props.id,
-        drawMode: 'LINES'
-      }),
-      vertexCount: 0,
-      isIndexed: true,
-      // TODO-state-management: onBeforeRender can go to settings, onAfterRender, we should
-      // move this settings of corresponding draw.
-      onBeforeRender: () => {
-        gl.enable(gl.BLEND);
-        gl.enable(gl.POLYGON_OFFSET_FILL);
-        gl.polygonOffset(2.0, 1.0);
-        gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
-        gl.blendEquation(gl.FUNC_ADD);
-      },
-      onAfterRender: () => {
-        gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
-        gl.disable(gl.POLYGON_OFFSET_FILL);
-      }
-    });
-  }
-
-  countVertices(data) {
-    if (!data) {
-      return;
+export default class ArcLayer extends Layer {
+    getShaders() {
+        return enable64bitSupport(this.props)
+            ? {vs: vs64, fs, modules: ['project64', 'picking']}
+            : {vs, fs, modules: ['picking']}; // 'project' module added by default.
     }
 
-    const {getPath} = this.props;
-    let vertexCount = 0;
-    const pathLengths = data.reduce((acc, d) => {
-      const l = getPath(d).length;
-      vertexCount += l;
-      return [...acc, l];
-    }, []);
-    this.setState({pathLengths, vertexCount});
-  }
+    initializeState() {
+        const attributeManager = this.getAttributeManager();
 
-  draw({uniforms}) {
-    const {trailLength, currentTime} = this.props;
-    this.state.model.render(
-      Object.assign({}, uniforms, {
-        trailLength,
-        currentTime
-      })
-    );
-  }
-
-  calculateIndices(attribute) {
-    const {pathLengths, vertexCount} = this.state;
-
-    const indicesCount = (vertexCount - pathLengths.length) * 2;
-    const indices = new Uint32Array(indicesCount);
-
-    let offset = 0;
-    let index = 0;
-    for (let i = 0; i < pathLengths.length; i++) {
-      const l = pathLengths[i];
-      indices[index++] = offset;
-      for (let j = 1; j < l - 1; j++) {
-        indices[index++] = j + offset;
-        indices[index++] = j + offset;
-      }
-      indices[index++] = offset + l - 1;
-      offset += l;
+        /* eslint-disable max-len */
+        attributeManager.addInstanced({
+            instancePositions: {
+                size: 4,
+                transition: true,
+                accessor: ['getSourcePosition', 'getTargetPosition'],
+                update: this.calculateInstancePositions
+            },
+            instanceSourceColors: {
+                size: 4,
+                type: GL.UNSIGNED_BYTE,
+                transition: true,
+                accessor: 'getSourceColor',
+                update: this.calculateInstanceSourceColors
+            },
+            instanceTargetColors: {
+                size: 4,
+                type: GL.UNSIGNED_BYTE,
+                transition: true,
+                accessor: 'getTargetColor',
+                update: this.calculateInstanceTargetColors
+            }
+        });
+        /* eslint-enable max-len */
     }
-    attribute.value = indices;
-    this.state.model.setVertexCount(indicesCount);
-  }
 
-  calculatePositions(attribute) {
-    const {data, getPath} = this.props;
-    const {vertexCount} = this.state;
-    const positions = new Float32Array(vertexCount * 3);
+    updateAttribute({props, oldProps, changeFlags}) {
+        if (props.fp64 !== oldProps.fp64) {
+            const attributeManager = this.getAttributeManager();
+            attributeManager.invalidateAll();
 
-    let index = 0;
-    for (let i = 0; i < data.length; i++) {
-      const path = getPath(data[i]);
-      for (let j = 0; j < path.length; j++) {
-        const pt = path[j];
-        positions[index++] = pt[0];
-        positions[index++] = pt[1];
-        positions[index++] = pt[2];
-      }
+            if (props.fp64 && props.coordinateSystem === COORDINATE_SYSTEM.LNGLAT) {
+                attributeManager.addInstanced({
+                    instancePositions64Low: {
+                        size: 4,
+                        accessor: ['getSourcePosition', 'getTargetPosition'],
+                        update: this.calculateInstancePositions64Low
+                    }
+                });
+            } else {
+                attributeManager.remove(['instancePositions64Low']);
+            }
+        }
     }
-    attribute.value = positions;
-  }
 
-  calculateColors(attribute) {
-    const {data, getColor} = this.props;
-    const {pathLengths, vertexCount} = this.state;
-    const colors = new Float32Array(vertexCount * 3);
-
-    let index = 0;
-    for (let i = 0; i < data.length; i++) {
-      const color = getColor(data[i]);
-      const l = pathLengths[i];
-      for (let j = 0; j < l; j++) {
-        colors[index++] = color[0];
-        colors[index++] = color[1];
-        colors[index++] = color[2];
-      }
+    updateState({props, oldProps, changeFlags}) {
+        super.updateState({props, oldProps, changeFlags});
+        // Re-generate model if geometry changed
+        if (props.fp64 !== oldProps.fp64) {
+            const {gl} = this.context;
+            if (this.state.model) {
+                this.state.model.delete();
+            }
+            this.setState({model: this._getModel(gl)});
+        }
+        this.updateAttribute({props, oldProps, changeFlags});
     }
-    attribute.value = colors;
-  }
+
+    draw({uniforms}) {
+        const {strokeWidth} = this.props;
+
+        this.state.model.render(
+            Object.assign({}, uniforms, {
+                strokeWidth
+            })
+        );
+    }
+
+    _getModel(gl) {
+        let positions = [];
+        const NUM_SEGMENTS = 50;
+        /*
+         *  (0, -1)-------------_(1, -1)
+         *       |          _,-"  |
+         *       o      _,-"      o
+         *       |  _,-"          |
+         *   (0, 1)"-------------(1, 1)
+         */
+        for (let i = 0; i < NUM_SEGMENTS; i++) {
+            positions = positions.concat([i, -1, 0, i, 1, 0]);
+        }
+
+        const model = new Model(
+            gl,
+            Object.assign({}, this.getShaders(), {
+                id: this.props.id,
+                geometry: new Geometry({
+                    drawMode: GL.TRIANGLE_STRIP,
+                    attributes: {
+                        positions: new Float32Array(positions)
+                    }
+                }),
+                isInstanced: true,
+                shaderCache: this.context.shaderCache
+            })
+        );
+
+        model.setUniforms({numSegments: NUM_SEGMENTS});
+
+        return model;
+    }
+
+    calculateInstancePositions(attribute) {
+        const {data, getSourcePosition, getTargetPosition} = this.props;
+        const {value, size} = attribute;
+        let i = 0;
+        for (const object in data) {
+            const sourcePosition = getSourcePosition(object);
+            const targetPosition = getTargetPosition(object);
+            value[i + 0] = sourcePosition[0];
+            value[i + 1] = sourcePosition[1];
+            value[i + 2] = targetPosition[0];
+            value[i + 3] = targetPosition[1];
+            i += size;
+        }
+    }
+
+    calculateInstancePositions64Low(attribute) {
+        const {data, getSourcePosition, getTargetPosition} = this.props;
+        const {value, size} = attribute;
+        let i = 0;
+        for (const object in data) {
+            const sourcePosition = getSourcePosition(object);
+            const targetPosition = getTargetPosition(object);
+            value[i + 0] = fp64LowPart(sourcePosition[0]);
+            value[i + 1] = fp64LowPart(sourcePosition[1]);
+            value[i + 2] = fp64LowPart(targetPosition[0]);
+            value[i + 3] = fp64LowPart(targetPosition[1]);
+            i += size;
+        }
+    }
+
+    calculateInstanceSourceColors(attribute) {
+        const {data, getSourceColor} = this.props;
+        const {value, size} = attribute;
+        let i = 0;
+        for (const object in data) {
+            const color = getSourceColor(object);
+            value[i + 0] = color[0];
+            value[i + 1] = color[1];
+            value[i + 2] = color[2];
+            value[i + 3] = isNaN(color[3]) ? 255 : color[3];
+            i += size;
+        }
+    }
+
+    calculateInstanceTargetColors(attribute) {
+        const {data, getTargetColor} = this.props;
+        const {value, size} = attribute;
+        let i = 0;
+        for (const object in data) {
+            const color = getTargetColor(object);
+            value[i + 0] = color[0];
+            value[i + 1] = color[1];
+            value[i + 2] = color[2];
+            value[i + 3] = isNaN(color[3]) ? 255 : color[3];
+            i += size;
+        }
+    }
 }
 
-TripsLayer.layerName = 'TripsLayer';
-TripsLayer.defaultProps = defaultProps;
+ArcLayer.layerName = 'ArcLayer';
+ArcLayer.defaultProps = defaultProps;
