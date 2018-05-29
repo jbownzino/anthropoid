@@ -1,0 +1,5702 @@
+{
+  "2018-05-16T19:30:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 453
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "MODEL_BUILD": 14,
+        "PREDICTION_REQUEST": 32,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": "48.864",
+      "longitude": "2.349"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 32.563183,
+      "longitude": -97.1416926
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 32.7269669,
+      "longitude": -117.1647094
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 36.1410253,
+      "longitude": -86.67118169999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 38,
+        "PREDICTION_REQUEST": 895,
+        "PROJECT_CREATION": 4
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 35.6816773,
+      "longitude": 139.7639301
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 6
+      },
+      "latitude": 33.665242,
+      "longitude": -117.7490656
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 99
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 33
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 57
+      },
+      "latitude": 41.8839927,
+      "longitude": -87.61970559999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 106
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 14
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 48.7701449,
+      "longitude": 9.1693201
+    }
+  ],
+  "2018-05-16T19:31:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 411
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 18,
+        "MODEL_BUILD": 59,
+        "PREDICTION_REQUEST": 44
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 33.665242,
+      "longitude": -117.7490656
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 5,
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 51.578045,
+      "longitude": -0.710205
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 99
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 85
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 20
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 17
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.4286907,
+      "longitude": -71.2280234
+    }
+  ],
+  "2018-05-16T19:32:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 501
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 3,
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 32.7269669,
+      "longitude": -117.1647094
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 32.563183,
+      "longitude": -97.1416926
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 14,
+        "MODEL_BUILD": 43,
+        "PREDICTION_REQUEST": 16,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3,
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2,
+        "PREDICTION_REQUEST": 92
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 33.665242,
+      "longitude": -117.7490656
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 51.578045,
+      "longitude": -0.710205
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 26
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 102
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 42.3292408,
+      "longitude": -75.7699147
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    }
+  ],
+  "2018-05-16T19:33:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": "48.864",
+      "longitude": "2.349"
+    },
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 401
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 13,
+        "MODEL_BUILD": 38,
+        "PREDICTION_REQUEST": 20,
+        "PROJECT_CREATION": 4
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2,
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 51.578045,
+      "longitude": -0.710205
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 34.6878619,
+      "longitude": 135.5001524
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 71
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 33
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 87
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 27
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 48
+      },
+      "latitude": 41.8839927,
+      "longitude": -87.61970559999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    }
+  ],
+  "2018-05-16T19:34:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 398
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 32.563183,
+      "longitude": -97.1416926
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 13,
+        "MODEL_BUILD": 63,
+        "PREDICTION_REQUEST": 1319,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1,
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1,
+        "PREDICTION_REQUEST": 104
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 53
+      },
+      "latitude": 41.8839927,
+      "longitude": -87.61970559999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 78
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 39
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 14
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    }
+  ],
+  "2018-05-16T19:35:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 508
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 16,
+        "MODEL_BUILD": 30,
+        "PREDICTION_REQUEST": 2340
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 8
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 84
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 38
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 94
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -6.2266758,
+      "longitude": 106.8104633
+    }
+  ],
+  "2018-05-16T19:36:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 501
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 15,
+        "MODEL_BUILD": 31,
+        "PREDICTION_REQUEST": 2269,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 26
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 51.578045,
+      "longitude": -0.710205
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2,
+        "PREDICTION_REQUEST": 85
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 95
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 29
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.0466321,
+      "longitude": -114.0584596
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    }
+  ],
+  "2018-05-16T19:37:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 601
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 19,
+        "MODEL_BUILD": 16,
+        "PREDICTION_REQUEST": 2184,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 26
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 5,
+        "PREDICTION_REQUEST": 116
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 51.578045,
+      "longitude": -0.710205
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 17
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 70
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -6.2266758,
+      "longitude": 106.8104633
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    }
+  ],
+  "2018-05-16T19:38:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "MODEL_BUILD": 14,
+        "PREDICTION_REQUEST": 32,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": "48.864",
+      "longitude": "2.349"
+    },
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 399
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 12,
+        "MODEL_BUILD": 61,
+        "PREDICTION_REQUEST": 2042,
+        "PROJECT_CREATION": 6
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 10
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 6,
+        "PREDICTION_REQUEST": 75
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 103
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    }
+  ],
+  "2018-05-16T19:39:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 501
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 3,
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 14,
+        "MODEL_BUILD": 45,
+        "PREDICTION_REQUEST": 2039
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 8,
+        "PREDICTION_REQUEST": 113
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 71
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 19
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    }
+  ],
+  "2018-05-16T19:40:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 431
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 13,
+        "MODEL_BUILD": 24,
+        "PREDICTION_REQUEST": 2034,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 21,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 21
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 78
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 78
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 24
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    }
+  ],
+  "2018-05-16T19:41:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": "48.864",
+      "longitude": "2.349"
+    },
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 453
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 13,
+        "MODEL_BUILD": 25,
+        "PREDICTION_REQUEST": 279,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 21
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 10,
+        "PREDICTION_REQUEST": 85
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 81
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    }
+  ],
+  "2018-05-16T19:42:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 453
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 15,
+        "MODEL_BUILD": 44,
+        "PREDICTION_REQUEST": 17,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 7,
+        "PREDICTION_REQUEST": 70
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 24
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 81
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -6.2266758,
+      "longitude": 106.8104633
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PROJECT_CREATION": 6
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    }
+  ],
+  "2018-05-16T19:43:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 403
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 46,
+        "PREDICTION_REQUEST": 22
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1,
+        "PREDICTION_REQUEST": 68
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 14
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 67
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PROJECT_CREATION": 1
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    }
+  ],
+  "2018-05-16T19:44:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": "48.864",
+      "longitude": "2.349"
+    },
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 153
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 35.6591285,
+      "longitude": 139.7077314
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 14,
+        "MODEL_BUILD": 21,
+        "PREDICTION_REQUEST": 1178,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 13
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 10
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 101
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 68
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 21
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    }
+  ],
+  "2018-05-16T19:45:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 453
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 8,
+        "MODEL_BUILD": 13,
+        "PREDICTION_REQUEST": 2297
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 8
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 76
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 24
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 81
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 35.6816773,
+      "longitude": 139.7639301
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 48.7701449,
+      "longitude": 9.1693201
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PROJECT_CREATION": 6
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    }
+  ],
+  "2018-05-16T19:46:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 453
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 18,
+        "MODEL_BUILD": 17,
+        "PREDICTION_REQUEST": 2170,
+        "PROJECT_CREATION": 4
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 22
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 7
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1,
+        "PREDICTION_REQUEST": 72
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 100
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 31
+      },
+      "latitude": 35.6816773,
+      "longitude": 139.7639301
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 19
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 23
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    }
+  ],
+  "2018-05-16T19:47:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 299
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 19,
+        "MODEL_BUILD": 30,
+        "PREDICTION_REQUEST": 2373
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 8
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 17
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 69
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 26
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 19
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 73
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 24
+      },
+      "latitude": 35.6816773,
+      "longitude": 139.7639301
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -6.2266758,
+      "longitude": 106.8104633
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 21
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.0466321,
+      "longitude": -114.0584596
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    }
+  ],
+  "2018-05-16T19:48:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 501
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 16,
+        "MODEL_BUILD": 11,
+        "PREDICTION_REQUEST": 2181,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4,
+        "PREDICTION_REQUEST": 61
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 88
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 22
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 35.6816773,
+      "longitude": 139.7639301
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 13
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 40.75368539999999,
+      "longitude": -73.9991637
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.0466321,
+      "longitude": -114.0584596
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    }
+  ],
+  "2018-05-16T19:49:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "INSIGHT_BUILD": 3,
+        "MODEL_BUILD": 7,
+        "PREDICTION_REQUEST": 453
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 4.570868,
+      "longitude": -74.297333
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 16,
+        "MODEL_BUILD": 7,
+        "PREDICTION_REQUEST": 2370,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 80
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 17
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 95
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 22
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 20
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 19
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 13
+      },
+      "latitude": 35.6816773,
+      "longitude": 139.7639301
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -6.2266758,
+      "longitude": 106.8104633
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    }
+  ],
+  "2018-05-16T19:50:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 512
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 16,
+        "PREDICTION_REQUEST": 670,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3,
+        "PREDICTION_REQUEST": 64
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 111
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 26
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 22
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 41.97464,
+      "longitude": -91.6590662
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    }
+  ],
+  "2018-05-16T19:51:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 398
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 5,
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 5
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 81
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 71
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 24
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 11
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 20
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 40.75368539999999,
+      "longitude": -73.9991637
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    }
+  ],
+  "2018-05-16T19:52:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 441
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 15,
+        "MODEL_BUILD": 24,
+        "PREDICTION_REQUEST": 28,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 14
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 76
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 81
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 22
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    }
+  ],
+  "2018-05-16T19:53:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 491
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 18,
+        "MODEL_BUILD": 16,
+        "PREDICTION_REQUEST": 20,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 66
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 20
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 88
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 13
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.4286907,
+      "longitude": -71.2280234
+    }
+  ],
+  "2018-05-16T19:54:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 651
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 11,
+        "PREDICTION_REQUEST": 1458,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 60
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 88
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 14
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 40.75368539999999,
+      "longitude": -73.9991637
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    }
+  ],
+  "2018-05-16T19:55:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 387
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 27
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 33.0787152,
+      "longitude": -96.8083063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 16,
+        "MODEL_BUILD": 7,
+        "PREDICTION_REQUEST": 2349
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 71
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 20
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 85
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 9
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    }
+  ],
+  "2018-05-16T19:56:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 123
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 19,
+        "MODEL_BUILD": 1,
+        "PREDICTION_REQUEST": 2364,
+        "PROJECT_CREATION": 4
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 19
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 39.0129178,
+      "longitude": -77.39560039999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 42
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 79
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 22
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 44.9019949,
+      "longitude": -93.42964459999999
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 48.7701449,
+      "longitude": 9.1693201
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    }
+  ],
+  "2018-05-16T19:57:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 563
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 24
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 14,
+        "PREDICTION_REQUEST": 2250
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 7
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1,
+        "PREDICTION_REQUEST": 82
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 42.5720581,
+      "longitude": -70.8476708
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 7
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 32
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 91
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 24
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 52.5221879,
+      "longitude": 13.4093313
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 10
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 20
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": -27.487,
+      "longitude": 152.984
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5,
+        "PROJECT_CREATION": 1
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    }
+  ],
+  "2018-05-16T19:58:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 354
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 32.563183,
+      "longitude": -97.1416926
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 32.7269669,
+      "longitude": -117.1647094
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 4,
+        "PREDICTION_REQUEST": 2324,
+        "PROJECT_CREATION": 3
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 32
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 31.9685988,
+      "longitude": -99.9018131
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 2,
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 1
+      },
+      "latitude": 47.6683603,
+      "longitude": -122.3769582
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 63
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 15
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 80
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 25
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 16
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 6
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 34.0489277,
+      "longitude": -118.3403506
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 40.75368539999999,
+      "longitude": -73.9991637
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    }
+  ],
+  "2018-05-16T19:59:00": [
+    {
+      "environment": "EUROPEAN_UNION",
+      "events": {
+        "PREDICTION_REQUEST": 512
+      },
+      "latitude": "51.5357",
+      "longitude": "0.7399"
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1
+      },
+      "latitude": 42.0341144,
+      "longitude": -87.759112
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 2,
+        "PREDICTION_REQUEST": 2
+      },
+      "latitude": 32.7269669,
+      "longitude": -117.1647094
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 17,
+        "MODEL_BUILD": 4,
+        "PREDICTION_REQUEST": 2472
+      },
+      "latitude": 42.3600825,
+      "longitude": -71.0588801
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "INSIGHT_BUILD": 1
+      },
+      "latitude": 40.7692929,
+      "longitude": -111.8907844
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 23
+      },
+      "latitude": 40.7569389,
+      "longitude": -111.8836874
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 4
+      },
+      "latitude": 42.348495,
+      "longitude": -83.0602998
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "MODEL_BUILD": 3
+      },
+      "latitude": 43.4807642,
+      "longitude": -80.549748
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 18
+      },
+      "latitude": 37.7890183,
+      "longitude": -122.3915063
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 108
+      },
+      "latitude": 36.1699412,
+      "longitude": -115.1398296
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 101
+      },
+      "latitude": 40.7602619,
+      "longitude": -73.9932872
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 42.3548561,
+      "longitude": -71.0661193
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 42.3613114,
+      "longitude": -71.0482911
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 39.28899029999999,
+      "longitude": -77.8597175
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 29
+      },
+      "latitude": -36.8562738,
+      "longitude": 174.7889907
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 12
+      },
+      "latitude": 6.5243793,
+      "longitude": 3.3792057
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 5
+      },
+      "latitude": 33.6893937,
+      "longitude": -112.0416754
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 3
+      },
+      "latitude": 37.7071863,
+      "longitude": -97.4327273
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.5749102,
+      "longitude": -111.8866683
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 8
+      },
+      "latitude": 37.75646649999999,
+      "longitude": -97.4056928
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 1
+      },
+      "latitude": 51.2795606,
+      "longitude": 0.1544002
+    },
+    {
+      "environment": "UNITED_STATES",
+      "events": {
+        "PREDICTION_REQUEST": 4
+      },
+      "latitude": 40.4960215,
+      "longitude": -111.8687825
+    }
+  ]
+}

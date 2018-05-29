@@ -86,6 +86,7 @@ export default class TripsLayer extends Layer {
                 currentTime
             })
         );
+        console.log(currentTime);
     }
 
     calculateIndices(attribute) {

@@ -14,11 +14,11 @@ const LIGHT_SETTINGS = {
 export default class DeckGLOverlay extends Component {
   static get defaultViewport() {
     return {
-      longitude: -74,
-      latitude: 40.72,
-      zoom: 5,
+      longitude: 13.180161,
+      latitude: 32.885353,
+      zoom: 1.338,
       maxZoom: 16,
-      pitch: 45,
+      pitch: 30,
       bearing: 0
     };
   }
