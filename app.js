@@ -59,6 +59,8 @@ class Root extends Component {
                 trips.push({
                     environment: environment,
                     segments: [sourcePosition, targetPosition],
+                    sourcePosition: sourcePosition,
+                    targetPosition: targetPosition,
                     events: events
                 });
             })
@@ -80,10 +82,10 @@ class Root extends Component {
 
     _resize() {
         this._onViewportChange({
-            //width: window.innerWidth,
-            //height: window.innerHeight
-            width: 800,
-            height: 600
+            width: window.innerWidth,
+            height: window.innerHeight
+            //width: 800,
+            //height: 600
         });
     }
 

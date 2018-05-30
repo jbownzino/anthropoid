@@ -111,6 +111,21 @@ export default class TripsLayer extends Layer {
         this.state.model.setVertexCount(indicesCount);
     }
 
+    calculateInstancePositions(attribute) {
+        const {data, getSourcePosition, getTargetPosition} = this.props;
+        const {value, size} = attribute;
+        let index = 0;
+        for (let i = 0; i < data.length; i++) {
+            const sourcePosition = getSourcePosition(data[i]);
+            const targetPosition = getTargetPosition(data[i]);
+            value[i + 0] = sourcePosition[0];
+            value[i + 1] = sourcePosition[1];
+            value[i + 2] = targetPosition[0];
+            value[i + 3] = targetPosition[1];
+            i += size;
+        }
+    }
+
     calculatePositions(attribute) {
         const {data, getPath} = this.props;
         const {vertexCount} = this.state;
